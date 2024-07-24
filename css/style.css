@@ -10,7 +10,7 @@
 .certificate-border{
     width: 297mm;
     height: 210mm;
-    border: 1pt solid rgba(119, 91, 19, 0.583) !important;
+    border: 1pt solid rgba(46, 45, 45, 0.316);
     display: flex;
     justify-content: center;
     align-items: center;
