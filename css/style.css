@@ -5,30 +5,34 @@
 
 
 .certificate-wrapper {
-    width: 297mm;
-    height: 210mm;
     overflow: hidden;
 }
-
-.certificate-background {
+.certificate-border{
     width: 297mm;
     height: 210mm;
+    border: 1pt solid rgba(119, 91, 19, 0.583) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     overflow: hidden;
+}
+.certificate-background {
+    width: 275mm;
+    height: 188mm;
     border: 2.5pt solid rgba(119, 91, 19, 0.583) !important;
-    outline: 1pt solid rgb(216, 208, 208);
-    outline-offset: 20pt;
-    padding: 3mm;
+    padding: 5mm;
     position: absolute;
 }
 
 .bar1 {
     width: 100mm;
     height: 4mm;
-    background-color: #163a70;
+    background-color: #082c63;
     position: relative;
     left: -31mm;
     transform: rotate(-48deg);
-    z-index: 22223;
+    z-index: -22223;
 }
 
 .bar2 {
@@ -37,8 +41,9 @@
     background-image: radial-gradient(circle, rgba(225, 220, 201, 0.844), rgb(158, 118, 18));
     position: relative;
     left: -32mm;
-    top: 18mm;
+    top: 14mm;
     transform: rotate(-48deg);
+    z-index: -22223;
 }
 
 .bar3 {
@@ -46,28 +51,31 @@
     height: 4mm;
     background-color: #163a70;
     position: relative;
-    left: -42mm;
+    left: -49mm;
     transform: rotate(-48deg);
+    z-index: -22223;
 }
 
 .bar4 {
-    width: 85mm;
+    width: 100mm;
     height: 4mm;
     background-color: #163a70;
     position: relative;
-    right: -242mm;
-    bottom: -175mm;
+    right: -214mm;
+    bottom: -160mm;
     transform: rotate(-48deg);
+    z-index: -22223;
 }
 
 .bar5 {
-    width: 100mm;
+    width: 130mm;
     height: 8mm;
     background-image: radial-gradient(circle, rgba(225, 220, 201, 0.844), rgb(158, 118, 18));
     position: relative;
-    right: -222mm;
-    bottom: -161mm;
+    right: -193mm;
+    bottom: -142mm;
     transform: rotate(-48deg);
+    z-index: -22223;
 }
 
 .bar6 {
@@ -75,9 +83,10 @@
     height: 4mm;
     background-color: #163a70;
     position: relative;
-    right: -158mm;
-    bottom: -159mm;
+    right: -148mm;
+    bottom: -138mm;
     transform: rotate(-48deg);
+    z-index: -22223;
 }
 
 .certificate-content {
@@ -92,12 +101,13 @@
 .certificate-content .title {
     position: relative;
     font-size: 70pt;
+    top: -20mm;
 }
 
 .certificate-content .sr-no {
     position: relative;
     top: -5mm;
-    left: 147mm;
+    left: 146mm;
     transform: rotate(90deg);
 }
 
@@ -109,7 +119,7 @@
 
 .certificate-content .subtitle {
     position: relative;
-    top: -10mm;
+    top: -22mm;
     font-size: 30pt;
 }
 
@@ -119,14 +129,16 @@
     font-optical-sizing: auto;
     font-style: normal;
     letter-spacing: 2pt;
+    top: -25mm;
 }
 
 .certificate-content .candidate-name {
     position: relative;
-    left: 20mm;
+    left: 2mm;
     font-family: sub;
     color: rgba(218, 165, 32, 0.844);
     font-size: 70pt;
+    top: -20mm;
 }
 
 .certificate-content .main-content {
@@ -136,11 +148,12 @@
     font-style: normal;
     letter-spacing: 1pt;
     color: rgba(0, 0, 0, 0.809);
+    top: -20mm;
 }
 
 .certificate-content .sign-president {
     position: relative;
-    top: 10mm;
+    top: -8mm;
     left: -83mm;
 }
 
@@ -152,7 +165,7 @@
     z-index: -99999;
     position: relative;
     right: -85mm;
-    top: -2mm;
+    top: -20mm;
 }
 
 .certificate-content img.sign-director {
@@ -163,20 +176,21 @@
 .certificate-content .org-logo>img {
     position: relative;
     width: 30mm;
-    top: -70pt;
+    top: -114pt;
 }
 
 .certificate-content .org-name {
     position: relative;
-    top: -70pt;
+    top: -42mm;
+    left: 0mm;
     color: blue;
     font-family: "Shojumaru", system-ui;
     font-weight: 400;
-    font-size: 20pt;
+    font-size: 12pt;
     font-style: normal;
 }
 
 .certificate-content .org-address {
     position: relative;
-    top: -70pt;
+    top: -114pt;
 }
