@@ -157,7 +157,7 @@
     left: -83mm;
 }
 
-.certificate-content img.sign-president {
+.certificate-content .sign-president-img {
     width: 30mm;
 }
 
@@ -168,7 +168,7 @@
     top: -20mm;
 }
 
-.certificate-content img.sign-director {
+.certificate-content .sign-director-img {
     position: relative;
     width: 30mm
 }
