@@ -116,7 +116,7 @@
 
 .certificate-content .date {
     position: relative;
-    top: -33mm;
+    top: -61mm;
     left: 120mm;
 }
 
@@ -156,18 +156,18 @@
 .certificate-logo{
     position: relative;
     top: -84mm;
-    right: -90mm;
+    right: -107mm;
 }
 .certificate-content .sign-president {
     position: relative;
-    top: -8mm;
+    top: -13mm;
     left: -83mm;
 }
 
 .certificate-content .sign-president-img {
     width: 30mm;
     position: relative;
-    top: -11mm;
+    top: -12mm;
     left: -81mm;
 }
 
@@ -175,7 +175,7 @@
     z-index: -99999;
     position: relative;
     right: -85mm;
-    top: -25mm;
+    top: -27mm;
 }
 
 .certificate-content .sign-director-img {
