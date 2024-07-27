@@ -23,7 +23,7 @@
 .certificate-background {
     width: 275mm;
     height: 188mm;
-    border: 2.5pt solid rgba(119, 91, 19, 0.583) !important;
+    border: 3pt solid rgba(119, 91, 19, 0.583) !important;
     padding: 5mm;
     position: absolute;
 }
@@ -41,7 +41,7 @@
 .bar2 {
     width: 100mm;
     height: 8mm;
-    background-image: radial-gradient(circle, rgba(225, 220, 201, 0.844), rgb(158, 118, 18));
+    background-image: radial-gradient(circle, rgba(225, 220, 201, 0.844), rgb(172, 123, 0));
     position: relative;
     left: -32mm;
     top: 14mm;
@@ -73,10 +73,10 @@
 .bar5 {
     width: 130mm;
     height: 8mm;
-    background-image: radial-gradient(circle, rgba(225, 220, 201, 0.844), rgb(158, 118, 18));
+    background-image: radial-gradient(circle, rgba(225, 220, 201, 0.979), rgb(172, 123, 0));
     position: relative;
-    right: -193mm;
-    bottom: -142mm;
+    left: 193mm;
+    top: 142mm;
     transform: rotate(-48deg);
     z-index: -22223;
 }
@@ -86,8 +86,8 @@
     height: 4mm;
     background-color: #163a70;
     position: relative;
-    right: -148mm;
-    bottom: -138mm;
+    left: 148mm;
+    top: 138mm;
     transform: rotate(-48deg);
     z-index: -22223;
 }
@@ -104,25 +104,24 @@
 .certificate-content .title {
     position: relative;
     font-size: 70pt;
-    top: -20mm;
+    top: 5mm;
 }
 
 .certificate-content .sr-no {
     position: relative;
-    top: -5mm;
-    left: 146mm;
-    transform: rotate(90deg);
+    bottom: 31mm;
+    right: 47mm;
 }
 
 .certificate-content .date {
     position: relative;
-    top: -61mm;
+    bottom: 35mm;
     left: 120mm;
 }
 
 .certificate-content .subtitle {
     position: relative;
-    top: -22mm;
+    bottom: 6mm;
     font-size: 30pt;
 }
 
@@ -132,7 +131,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     letter-spacing: 2pt;
-    top: -25mm;
+    bottom:5mm;
 }
 
 .certificate-content .candidate-name {
@@ -141,7 +140,7 @@
     font-family: sub;
     color: rgba(218, 165, 32, 0.844);
     font-size: 70pt;
-    top: -20mm;
+    bottom: 6mm;
 }
 
 .certificate-content .main-content {
@@ -151,50 +150,51 @@
     font-style: normal;
     letter-spacing: 1pt;
     color: rgba(0, 0, 0, 0.809);
-    top: -20mm;
+    bottom: 10mm;
 }
-.certificate-logo{
+.certificate-logo img{
+    width: 40mm;
     position: relative;
-    top: -84mm;
-    right: -107mm;
+    bottom: 84mm;
+    left: 107mm;
 }
 .certificate-content .sign-president {
     position: relative;
-    top: -13mm;
-    left: -83mm;
+    bottom: 23mm;
+    right: 63mm;
+    font-size: 20pt;
 }
 
 .certificate-content .sign-president-img {
-    width: 30mm;
+    width: 40mm;
     position: relative;
-    top: -12mm;
-    left: -81mm;
+    bottom: 23mm;
+    right: 63mm;
 }
 
 .certificate-content .sign-director {
-    z-index: -99999;
-    position: relative;
-    right: -85mm;
-    top: -27mm;
+       position: relative;
+       bottom: 46mm;
+       left: 63mm;
+   font-size: 20pt;
 }
 
 .certificate-content .sign-director-img {
     position: relative;
-    width: 30mm;
-    top: -30mm;
-    left: 83mm;
+    width: 50mm;
+    bottom: 46mm;
+    left: 63mm;
 }
 
-.certificate-content .org-logo{
+.certificate-content .org-logo img{
     position: relative;
-    width: 30mm;
-    top: -114pt;
+    width: 40mm;
+    bottom: 60mm;
 }
 
 .certificate-content .org-name {
     position: relative;
-    top: -42mm;
-    left: 0mm;
+    bottom: 70mm;
     color: blue;
     font-family: "Shojumaru", system-ui;
     font-weight: 400;
@@ -204,6 +204,6 @@
 
 .certificate-content .org-address {
     position: relative;
-    top: -114pt;
+    bottom: 65mm;
 }
 }
