@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 @font-face {
     font-family: sub;
     src: url("../fonts/AlexBrush-Regular.ttf");
@@ -26,6 +30,7 @@
     border: 3pt solid rgba(119, 91, 19, 0.583) !important;
     padding: 5mm;
     position: absolute;
+   
 }
 
 .bar1 {
@@ -104,12 +109,12 @@
 .certificate-content .title {
     position: relative;
     font-size: 70pt;
-    top: 5mm;
+    top: 10mm;
 }
 
 .certificate-content .sr-no {
     position: relative;
-    bottom: 31mm;
+    bottom: 30mm;
     right: 47mm;
 }
 
@@ -121,7 +126,6 @@
 
 .certificate-content .subtitle {
     position: relative;
-    bottom: 6mm;
     font-size: 30pt;
 }
 
@@ -131,16 +135,16 @@
     font-optical-sizing: auto;
     font-style: normal;
     letter-spacing: 2pt;
-    bottom:5mm;
+    bottom:37mm;
 }
 
 .certificate-content .candidate-name {
     position: relative;
     left: 2mm;
     font-family: sub;
-    color: rgba(218, 165, 32, 0.844);
+    color: rgba(232, 171, 16, 0.844);
     font-size: 70pt;
-    bottom: 6mm;
+    bottom: 36mm;
 }
 
 .certificate-content .main-content {
@@ -150,12 +154,12 @@
     font-style: normal;
     letter-spacing: 1pt;
     color: rgba(0, 0, 0, 0.809);
-    bottom: 10mm;
+    bottom: 35mm;
 }
 .certificate-logo img{
     width: 40mm;
     position: relative;
-    bottom: 84mm;
+    bottom: 24mm;
     left: 107mm;
 }
 .certificate-content .sign-president {
@@ -198,12 +202,17 @@
     color: blue;
     font-family: "Shojumaru", system-ui;
     font-weight: 400;
-    font-size: 12pt;
+    font-size: 18pt;
     font-style: normal;
 }
 
 .certificate-content .org-address {
     position: relative;
-    bottom: 65mm;
+    font-size: 12pt;
+	  font-weight: bold;
+    bottom: 69mm;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 }
