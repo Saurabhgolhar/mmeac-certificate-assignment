@@ -40,7 +40,7 @@
     position: relative;
     left: -31mm;
     transform: rotate(-48deg);
-    z-index: -22223;
+    z-index: -1;
 }
 
 .bar2 {
@@ -51,7 +51,7 @@
     left: -32mm;
     top: 14mm;
     transform: rotate(-48deg);
-    z-index: -22223;
+    z-index: -1;
 }
 
 .bar3 {
@@ -61,7 +61,7 @@
     position: relative;
     left: -49mm;
     transform: rotate(-48deg);
-    z-index: -22223;
+    z-index: -1;
 }
 
 .bar4 {
@@ -72,7 +72,7 @@
     right: -214mm;
     bottom: -160mm;
     transform: rotate(-48deg);
-    z-index: -22223;
+    z-index: -1;
 }
 
 .bar5 {
@@ -83,7 +83,7 @@
     left: 193mm;
     top: 142mm;
     transform: rotate(-48deg);
-    z-index: -22223;
+    z-index: -1;
 }
 
 .bar6 {
@@ -94,7 +94,7 @@
     left: 148mm;
     top: 138mm;
     transform: rotate(-48deg);
-    z-index: -22223;
+    z-index: -1;
 }
 
 .certificate-content {
